@@ -1,0 +1,58 @@
+.Login-form{
+width: 700px;
+height: 550px;
+box-shadow: 0 0 15px 0;
+background: #cae8d5;
+margin: 8% auto;
+margin-top: 74px;
+text-align: left;
+font-family: 'Muli', sans-serif;
+}
+
+.logo{
+width: 75px;
+height: 70px;
+margin-top: 20px;
+}
+
+.hey{
+margin-top: 15px;
+margin-left: 30px;
+color: #204051;
+text-align: center;
+font-weight: 600;
+}
+
+.form-group{
+margin-left: 30px;
+margin-right: 50px;
+margin-bottom: 10px;
+}
+
+.link{
+color: #fff;
+font-weight: 600;
+
+}
+.horizontal{
+width: 70%;
+line-height: 5px;
+color: #000;
+margin-top: 20px;
+overflow: visible;
+}
+
+.or{
+  margin:-27px auto 20px;
+  font-weight: 600;
+  overflow: visible;
+}
+
+.btn{
+  width: 40%;
+  margin-top: 15px;
+}
+
+.acc{
+  text-decoration: underline;
+}

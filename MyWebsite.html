@@ -3,45 +3,179 @@
 
 <head>
   <meta charset="utf-8">
-  <title> MyWebsite </title>
-
+  <title> CourseHive </title>
+  <!-- bootstrap -->
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+  <!-- CSS Styles -->
   <link rel="stylesheet" href="css/styles.css">
+
+  <!-- google Fonts -->
   <link href="https://fonts.googleapis.com/css2?family=Muli:wght@300&display=swap" rel="stylesheet">
+  <!-- Font Awesome -->
+  <script defer src="https://use.fontawesome.com/releases/v5.0.7/js/all.js"></script>
+
+  <!--bootstrap scripts  -->
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 </head>
 
 <body>
-<!-- Navigation bar -->
-  <div>
-    <nav class="navbar navbar-expand-lg navbar-dark bg-info">
-      <a class="navbar-brand mb-0 h1">
-        <img class="logo" src="companylogo.jpg" alt="company-logo"><b> CourseHive </b> </a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-  <!-- Items -->
-  <div class="collapse navbar-collapse" id="navbarNav">
-    <ul class="navbar-nav">
-      <li class="nav-item active">
-        <a class="nav-link" href="#"><strong>Home</strong><span class="sr-only">(current)</span></a>
-      </li>
-      <li class="nav-item active">
-        <a class="nav-link" href="#"><strong> SignUp </strong><span class="sr-only">(current)</span></a>
-      </li>
-      <li class="nav-item active">
-        <a class="nav-link" href="#"><strong> Login </strong></strong><span class="sr-only">(current)</span></a>
-      </li>
-    </ul>
-
-  <!-- Search Bar -->
-        <form class="form-inline">
-          <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-          <button class="btn btn-primary my-2 my-sm-0" type="submit">Search</button>
-        </form>
+  <div class="container-fluid">
+    <!-- Navigation bar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-info ">
+      <a class="navbar-brand" href="MyWebsite.html">
+        <b> CourseHive </b>
+        <img class="logo" src="Logo-f.jpg" alt="company-logo"></a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <!-- Items -->
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item-1 active">
+            <a class="nav-link" href="MyWebsite.html"><strong> Home </strong></a>
+          </li>
+          <li class="nav-item-2 active">
+            <a class="nav-link" href="#Help"><strong> Help </strong></a>
+          </li>
+          <li class="nav-item-3 active">
+            <a class="nav-link" href="signup.html"><strong> SignUp </strong></a>
+          </li>
+          <li class="nav-item-4 active">
+            <a class="nav-link" href="Login.html"><strong> Login </strong></strong></a>
+          </li>
+        </ul>
+      </div>
     </nav>
 
-  </div>
+    <!-- Search Page Link -->
+    <div class="SearchLink">
+      <center>
+        <h2 class="SearchTitle"> Search for Courses </h2>
+        <a class="SearchlinkButton" href="searchPage.html"><button type="button" class="btn btn-lg btn-info"> Click here to go to Search Page </button></a>
+      </center>
+    </div>
+
+
+    <!-- Initial COntent -->
+    <div class="Paragraph">
+      <div class="row">
+        <div class="container-fluid col-lg-6 col-md-4 col-sm-3">
+          <h1 class="big-heading">Finding Online Courses made easy.</h1>
+          <strong> <p class="text">
+            CourseHive is geared to make looking for online courses a less tedious task.
+            With a search engine embedded with 20 of the top online course websites such as Udemy, Coursera, FutureLearn etc., the platform aims to act as a middle ground between students or professionals looking for courses to get certified on and any online platforms offering educational courses.
+            Click on the button below to proceed to the search page where you can simply type in the name of the course you are looking for and have a personalised list displayed for you with the links to the websites offering the course.
+            <center><a href="searchPage.html"> <button type="button" class="btn btn-lg btn-primary"> Find Your Course! </button></a></center>
+          </p></strong>
+        </div>
+        <!-- Title picture -->
+        <div class="col-lg-6">
+          <img class="title-image" src="laptop_pic.jpg" alt="iphone-mockup">
+        </div>
+      </div>
+    </div>
+
+
+
+  <!-- Features -->
+  <section class="features">
+    <div class="container-fluid">
+      <div class="row">
+        <div class="feature-box col-lg-4">
+          <i class="icon fas fa-check-circle fa-4x"></i>
+          <strong>
+            <h2 class="feature-title">Easy to Use</h2>
+          </strong>
+          <p>Just tell us what your loking for and we'll create a list of the best courses for you.</p>
+        </div>
+
+        <div class="feature-box col-lg-4">
+          <i class="icon far fa-calendar-check fa-4x"></i>
+          <strong>
+            <h2 class="feature-title"> Always be Up To Date </h2>
+          </strong>
+          <p>Get regular updates on the most popular online courses available.</p>
+        </div>
+
+        <div class="feature-box col-lg-4">
+          <i class="icon fas fa-graduation-cap fa-4x"></i>
+          <strong>
+            <h2 class="feature-title"> Learn a new Skill </h2>
+          </strong>
+          <p>Explore new areas of knowledge and also get certified while you're at it.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- List of Websites -->
+
+  <section class="List">
+
+      <strong>
+        <h2 class="list-title">Here's all the Websites we feature so you can find a course that best fits you</h2>
+      </strong>
+      <div class="row">
+        <div class="col-lg-3">
+          <ul class="List-items-one">
+            <li> Udemy </li>
+            <li> Coursera </li>
+            <li> Udacity </li>
+            <li> Masterclass </li>
+            <li> Unacademy </li>
+          </ul>
+        </div>
+        <div class="col-lg-3">
+          <ul class="List-items-two">
+            <li> Khan Academy </li>
+            <li> Academic Earth </li>
+            <li> Edx </li>
+            <li> Skillshare </li>
+            <li> Guru99 </li>
+          </ul>
+        </div>
+        <div class="col-lg-3">
+          <ul class="List-items-three">
+            <li>Microsoft Virtual Academy</li>
+            <li> Ecoursem </li>
+            <li> FutureLearn </li>
+            <li> Edureka </li>
+            <li> Lynda </li>
+          </ul>
+        </div>
+        <div class="col-lg-3">
+          <ul class="List-items-four">
+            <li>Unschool</li>
+            <li> SoloLearn </li>
+            <li> SimpliLearn </li>
+            <li> Pluralsight </li>
+            <li> Vskills </li>
+          </ul>
+        </div>
+      </div>
+
+  </section>
+
+  <!-- Footer -->
+  <footer id="footer">
+    <div class="container-fluid foot">
+      <center>
+        <strong>
+          <em>
+            <p class="Contactus">
+              Reach Out To Us!
+            </p>
+          </em></strong>
+        <i class="social-icon fab fa-facebook-f"></i>
+        <i class="social-icon fab fa-twitter "></i>
+        <i class="social-icon fab fa-instagram "></i>
+        <i class="social-icon fas fa-envelope "></i>
+      </center>
+    </div>
+  </footer>
 
 </body>
 

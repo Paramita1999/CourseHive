@@ -1,0 +1,49 @@
+body{
+background-color: #fff;
+color: #000;
+font-family: 'Muli', sans-serif;
+}
+
+/* Navigation bar container */
+.container-fluid{
+padding-left: 0;
+padding-right: 0;
+}
+
+
+/* Navbar */
+.navbar{
+color: white;
+padding-right: 30px;
+}
+
+.navbar-brand{
+margin-left: 170px;
+
+}
+
+/* Company logo */
+.logo{
+ width: 83px;
+ height: 68px;
+ margin-left: 0;
+  margin-top: 2px;
+}
+
+.nav-item-4{
+margin-right: 140px;
+}
+
+
+
+/* Search Box */
+.SearchEngine{
+width: 600px;
+margin: 35px  40px;
+
+}
+
+/* Search Results */
+.Results{
+margin-top: 10px;
+}
